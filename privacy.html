@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi · Mencool Ulasan</title>
+<style>
+:root{--bg:#f4f7f5;--ink:#17312c;--muted:#5d746e;--brand:#1c7a5e;--line:#dde7e2}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 18px 48px}
+h1{font-size:26px;margin:0 0 4px}h2{font-size:18px;margin:26px 0 6px}
+.lead{color:var(--muted);margin:0 0 18px}ul{padding-left:20px}a{color:var(--brand)}
+footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Kebijakan Privasi Mencool Ulasan</h1>
+<p class="lead">Berlaku sejak 28 Oktober 2026.</p>
+
+<p>Mencool Ulasan adalah alat pribadi milik Mencool Barbershop (Denpasar, Bali) untuk membantu membalas ulasan Google di profil usaha kami sendiri. Halaman ini menjelaskan data apa yang diakses, untuk apa, di mana disimpan, dan dengan siapa dibagikan.</p>
+
+<h2>Data Google yang diakses</h2>
+<ul>
+<li><b>Google Business Profile</b> (izin <i>business.manage</i>): daftar lokasi usaha Mencool, ulasan pelanggan (bintang, teks, waktu), dan balasan kami. Izin ini juga dipakai untuk memposting balasan.</li>
+<li><b>Google Sheets</b> (hanya spreadsheet milik pemilik yang terhubung dengan alat ini): untuk mencatat antrean balasan.</li>
+<li><b>Alamat email akun</b>: hanya untuk memastikan alat dijalankan oleh pemilik usaha.</li>
+</ul>
+
+<h2>Cara data dipakai</h2>
+<ul>
+<li>Teks ulasan dikirim ke Gemini API (Google) untuk membuat draf balasan. Nomor telepon dan alamat email di dalam ulasan disamarkan sebelum dikirim.</li>
+<li>Balasan bintang 5 diposting otomatis. Balasan untuk bintang 1 sampai 4 hanya diposting setelah disetujui pemilik usaha.</li>
+<li>Data tidak dipakai untuk iklan, tidak dijual, dan tidak dipakai untuk melatih model AI milik kami.</li>
+</ul>
+
+<h2>Penyimpanan</h2>
+<ul>
+<li>Antrean balasan disimpan di Google Sheets pribadi milik pemilik usaha. Isinya nama cabang, jumlah bintang, status, dan draf balasan. Nama pelanggan tidak disimpan.</li>
+<li>Teks ulasan dibaca langsung dari Google saat dibutuhkan. Bagian "Ulasan terbaru" di dasbor hanya menampilkan ulasan terbaru dan ditimpa setiap pemindaian.</li>
+<li>Baris antrean dihapus otomatis setelah 29 hari.</li>
+</ul>
+
+<h2>Berbagi data</h2>
+<p>Kami tidak membagikan data Google pengguna kepada pihak lain, kecuali kepada layanan Google yang dipakai untuk menjalankan alat ini (Google Business Profile, Google Sheets, dan Gemini API).</p>
+
+<h2>Kepatuhan kebijakan Google</h2>
+<p>Penggunaan dan pemindahan informasi yang diterima Mencool Ulasan dari Google API mematuhi <a href="https://developers.google.com/terms/api-services-user-data-policy">Kebijakan Data Pengguna Layanan Google API</a>, termasuk persyaratan Penggunaan Terbatas (<i>Limited Use</i>).</p>
+
+<h2>Menghapus data dan mencabut akses</h2>
+<p>Pemilik usaha dapat menghapus seluruh antrean lewat menu <b>Mencool → Hapus antrean dan putuskan sambungan</b>, dan mencabut akses alat ini kapan saja di <a href="https://myaccount.google.com/permissions">Akun Google → Keamanan → Aplikasi pihak ketiga</a>. Balasan yang sudah diposting tetap terlihat di Google Maps sampai dihapus dari Google Business Profile.</p>
+
+<h2>Kontak</h2>
+<p>Pertanyaan tentang kebijakan ini dapat dikirim ke <a href="mailto:mencoolbarbershop2@gmail.com">mencoolbarbershop2@gmail.com</a>.</p>
+
+<footer><a href="index.html">Kembali ke beranda Mencool Ulasan</a></footer>
+</main>
+</body>
+</html>
